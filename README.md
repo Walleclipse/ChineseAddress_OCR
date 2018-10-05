@@ -3,7 +3,7 @@
 Photographing Chinese-Address OCR implemented using CTPN+CTC+Address Correction.   
   
 This is a project of the 2018 Deecamp 25th group (DRPRG). Thanks to my team members!  
-这个是 2018年 Deecamp 25组 (深度受限抠图小组) 的项目，非常非常的感谢每一位组员！  
+这个是 2018年 Deecamp 25组 (深度受限抠图小组) 的项目，非常非常的感谢每一位队友！  
   
 Our Demo: https://www.bilibili.com/video/av30081208  
 Our Wechat Program (微信小程序)： OCRdeecamp  
