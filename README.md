@@ -35,8 +35,9 @@ wechat_program
 Some files of wechat program (微信小程序的一些文件)
 
 ## Results
-In our dataset, the accuracy of exactly correct is 83 % ,accuracy of edit distance less than 3 is 97%. This result is better than Baidu and Tencent's general OCR.   
-Our program has a high accuracy at identifying very fuzzy multi-line addresses.  
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/ChineseAddress_OCR/raw/master/demo/result2.png" width="700" ></div>   
+In our dataset, the accuracy of exactly correct is 83% ,accuracy of edit distance less than 3 is 97%. This result is better than Baidu and Tencent's general OCR.   
+Our program has a high accuracy at identifying very fuzzy multi-line addresses. 
+
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/ChineseAddress_OCR/raw/master/demo/result2.png" width="750" ></div>   
 
 If you want to know more details, please read 'ChineseAddress_OCR_Report.pdf'(Chinese). If you want to read details in English, please contact me.
