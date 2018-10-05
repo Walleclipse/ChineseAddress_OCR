@@ -1,0 +1,82 @@
+page{
+  height: 100%;
+  /* background-color: #fff; */
+  background-image: url('http://thyrsi.com/t6/360/1534829071x-1376440240.jpg'); 
+  background-size: cover;
+}
+
+.wrap{
+  width: 100%;
+  height: 35%;
+  display: flex;
+  /* 垂直居中 */
+  align-items: center; 
+  /* 水平居中 */
+   justify-content: center; 
+}
+
+.wrap2{
+  width: 100%;
+  height: 22%;
+  display: flex;
+  /* 垂直居中 */
+  align-items: center; 
+  /* 水平居中 */
+   justify-content: center; 
+}
+
+.welcomeImg{
+  width: 240px;
+  height: 200px;
+}
+
+.banner{height: 400px;background-color:#ddd;}
+
+.customSwiper {
+  height: 200rpx;
+  position: relative;
+  margin-bottom: 20rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  margin-top: 150rpx
+  }
+.customSwiper swiper{height: 80%;}
+.tab{
+  height: 7orpx;position: absolute;bottom: 0;display:flex;
+  width: 100%;text-align: center;justify-content:center;
+  align-items: center;
+}
+.tab .tab-item{ background-color: #ccc;height: 20rpx;width: 50rpx;
+line-height: 50rpx;font-size:12rpx;color:#fff;border-radius: 4px;
+margin-right:10px;}
+.tab .tab-item.selected{ background-color: #7986CB;}
+
+/* button样式 */
+.circle{
+    /*width: 80px;
+    height: 80px;
+    color: #ffffff;
+    background: #2a579a;
+    border: 0 solid #2a579a;
+    border-radius: 500px;
+    box-shadow: 4px 1px 1px #cccccc;
+    justify-content: center;
+    text-align: center;
+    align-items: center;*/
+    justify-content: center;
+    color: #7ebfef;
+    /* #6eb1df  */
+    /* box-shadow: 4px 1px 1px #cccccc; */
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 200rpx;
+    height: 200rpx;
+    width: 200rpx;
+}
+
+.circle text {
+  vertical-align:middle;
+  font-size: larger;
+}

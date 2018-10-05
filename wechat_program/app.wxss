@@ -1,0 +1,17 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+page{
+  height: 100%;
+  /* background-color: #eee; */
+  /* background-image: url('http://thyrsi.com/t6/360/1534821612x-1376440240.jpg');  */
+  background-size: cover; 
+}

@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class='wrap'>
+  <!-- <image class="welcomeImg" src="../../images/new_logo.png"/> -->
+</view>
+
+
+<view class="image_container2">
+  <image class='image' src="{{tempFilePaths}}" mode="aspectFit" style='width: 100%' />
+</view>
+
+<view class='wrap2'>
+  <!-- <image class="welcomeImg" src="../../images/new_logo.png"/> -->
+</view>
+
+<button class='btn' hover-class='btn_hover' style="margin:20%;" bindtap="upLoad">
+  <text class='text_color'>选择图片上传</text>
+</button>
+

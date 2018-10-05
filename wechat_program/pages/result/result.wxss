@@ -1,0 +1,147 @@
+/* pages/result/result.wxss */
+
+page {
+  display: block;
+  min-height: 100%;
+  /* background-color: #2a579a; */
+  height: 100%;
+  background-image: url('http://thyrsi.com/t6/360/1534831335x-1404755516.jpg');
+  background-size: cover;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.image_container{ 
+    height: 200px; 
+    border: 8rpx solid #fff;
+    border-radius: 10px;
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    margin-bottom: 20rpx;
+    padding: 20rpx 20rpx;
+}
+
+.image{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+}
+
+.banner{height: 400px;background-color:#ddd;}
+
+.customSwiper {
+  height: 420rpx;
+  position: relative;
+  }
+.customSwiper swiper{height: 100%;}
+.tab{
+  height: 7orpx;position: absolute;bottom: 0;display:flex;
+  width: 100%;text-align: center;justify-content:center;
+  align-items: center;
+}
+.tab .tab-item{ background-color: #ccc;height: 50rpx;width: 50rpx;
+line-height: 50rpx;font-size:12rpx;color:#fff;border-radius: 4px;
+margin-right:10px;}
+.tab .tab-item.selected{ background-color: #2a579a;}
+
+
+.map_container{ 
+    height: 350px; 
+    border: 8rpx solid #fff;
+    border-radius: 10px;
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    margin-bottom: 20rpx;
+    padding: 15rpx;
+}
+.map { 
+    height: 100%; 
+    width: 100%; 
+}
+
+
+/* zhangjiyuan */
+.btn {
+  /* width: 90%;
+  margin-top: 30rpx; */
+  background-color: #82B1FF;
+  border-radius: 40px;
+  color: #FFF;
+}
+
+.btn::after {
+  border: 0;
+}
+
+.btn_hover {
+  background-color: #FCE4EC;
+}
+
+.text_color {
+  color: #FFFFFF
+}
+
+.container_show{ 
+  display: block;
+}
+
+.container_hide{ 
+  display: none;
+}
+
+.addrline{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.place_info{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  color:#F5F5F5;
+}
+
+.textstyle{
+  font-weight:bolder;
+  font-size: larger;
+  color: #EFEBE9;
+}
+
+.textstyle2{
+  font-weight:bolder;
+  /* font-family */
+  color: #E0E0E0;
+}
+
+.wrap {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  /* 垂直居中 */
+  align-items: center;
+  /* 水平居中 */
+  justify-content: center;
+}

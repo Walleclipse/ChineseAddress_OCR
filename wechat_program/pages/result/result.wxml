@@ -1,0 +1,41 @@
+<!--pages/result/result.wxml-->
+<!-- <view class="{{showView?'container_show':'container_hide'}}"> -->
+<view class='wrap'>
+  <!-- <image class="welcomeImg" src="../../images/new_logo.png"/> -->
+</view>
+
+  <view class='image_container'>
+    <image class='image' src="{{tempFilePaths_bbox}}" mode="aspectFit" style="width: 100%" />
+  </view>
+
+
+  <view class="addrline" style='white-space:pre-wrap'>
+    <view>
+      <text class='textstyle'>识别结果：</text>
+    </view>
+    <block><text class='textstyle2'>{{addrline}}</text></block>
+
+    <view>
+      <text class='textstyle'>定位地点：</text>
+    </view>
+    <view>
+      <text class='textstyle2'>{{address_component}}</text>
+    </view>
+
+  </view>
+
+
+  <button class='btn' hover-class='btn_hover' style="margin:20%;" bindtap="seeMap">地图定位</button>
+
+  <view class="map_container">
+    <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="18" show-location="true" markers='{{markers}}' style="width: 100%; height: 100%;" bindmarkertap="makertap"></map>
+  </view>
+
+  <view class='infomation'>
+    <text class="place_info">{{placeData.title}}</text>
+    <text class="place_info">{{placeData.address}}</text>
+    <!-- <text class="place_info">{{placeData.telephone}}</text> -->
+  </view>
+
+  <button class='btn' hover-class='btn_hover' style="margin:20%;" bindtap="click_return">返回</button>
+<!-- </view> -->

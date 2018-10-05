@@ -1,0 +1,29 @@
+<!-- <view style="background-image: url('../../images/pg.jpg')"> -->
+<view class='wrap'>
+  <!-- <image class="welcomeImg" src="../../images/new_logo.png"/> -->
+</view>
+
+<button class='circle' bindtap="clickLogo">
+  <text style='white-space:pre-wrap;font-size:120rpx;'>開</text>
+</button>
+
+<view class='wrap2'>
+  <!-- <image class="welcomeImg" src="../../images/new_logo.png"/> -->
+</view>
+
+<view class='customSwiper'>
+  <swiper class='banner' autoplay='true' interval='3000' duration='300' bindchange='switchTab'>
+    <block wx:for="{{sliderList}}" wx:key="key">
+      <swiper-item>
+        <image style='width:100%;height:100%;' mode='widthFix: 730rpx' src="{{item.imageSource}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="tab">
+    <block wx:for="{{sliderList}}" wx:key="key">
+      <view wx:if="{{item.selected}}" class='tab-item selected'>{{index+1}}</view>
+      <view wx:else class="tab-item">{{index+1}}</view>
+    </block>
+  </view>
+</view>
+<!-- </view> -->

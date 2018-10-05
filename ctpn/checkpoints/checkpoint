@@ -1,0 +1,5 @@
+model_checkpoint_path: "/data/share/chinese_ocr/ctpn/checkpoints/VGGnet_fast_rcnn_iter_86000.ckpt"
+all_model_checkpoint_paths: "/home/lthpc/Project/text-detection-ctpn-v2/output/ctpn_end2end/voc_2007_trainval/VGGnet_fast_rcnn_iter_63000.ckpt"
+all_model_checkpoint_paths: "/home/lthpc/Project/text-detection-ctpn-v2/output/ctpn_end2end/voc_2007_trainval/VGGnet_fast_rcnn_iter_64000.ckpt"
+all_model_checkpoint_paths: "/home/lthpc/Project/text-detection-ctpn-v2/output/ctpn_end2end/voc_2007_trainval/VGGnet_fast_rcnn_iter_65000.ckpt"
+all_model_checkpoint_paths: "/home/lthpc/Project/text-detection-ctpn-v2/output/ctpn_end2end/voc_2007_trainval/VGGnet_fast_rcnn_iter_66000.ckpt"
