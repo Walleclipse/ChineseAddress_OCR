@@ -1,6 +1,8 @@
 # ChineseAddress_OCR
 ## 环境不可控场景下拍照文档地址文字识别
-Photographing Chinese-Address OCR implemented using CTPN+CTC+Address Correction.   
+Photographing Chinese-Address OCR implemented using CTPN+CTC+Address Correction.  
+This is a project of the 2018 Deecamp 25th group (DRPRG). Thanks to my team members!  
+这个是2018年Deecamp 25组(深度受限抠图小组)的项目，非常非常的感谢每一位组员！  
   
 Our Demo: https://www.bilibili.com/video/av30081208  
 Our Wechat Program (微信小程序)： OCRdeecamp  
