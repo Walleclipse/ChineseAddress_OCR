@@ -25,7 +25,7 @@ Text detection using CTPN, then text recognition using Densenet
 stupid_addrs_rev.py  
 Address correction using fuzyy-matching based on address library  
 ctpn  
-If you want to know more details about CTPN, please check https://github.com/eragonruan/text-detection-ctpn  
+If you want to know more details about CTPN codes, please check https://github.com/eragonruan/text-detection-ctpn  
 wechat_program  
 Some files of wechat program (微信小程序的一些文件)
 
