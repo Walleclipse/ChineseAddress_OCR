@@ -16,8 +16,10 @@ Reference Code: https://github.com/YCG09/chinese_ocr (Thanks Yang Chenguang)
 Text Detection : CTPN (https://arxiv.org/pdf/1609.03605.pdf)  
 Text Recognition: CTC+DenseNet  
 Address Judgment: Light GBM or textgrocery (https://github.com/2shou/TextGrocery)  
-Address Correction: Fuzzy matching based on address library 
+Address Correction: Fuzzy matching based on address library   
 
+<div style="float:center;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/ChineseAddress_OCR/raw/master/demo/method.png"  width="700" ></div>  
+  
 ## About Code
 demo_final.py  
 You can simpely use demo_final.py for inference. Input a picture and output the Chinese address string.   
@@ -35,5 +37,6 @@ Some files of wechat program (微信小程序的一些文件)
 ## Results
 In our dataset, the accuracy of exactly correct is 83 % ,accuracy of edit distance less than 3 is 97%. This result is better than Baidu and Tencent's general OCR.   
 Our program has a high accuracy at identifying very fuzzy multi-line addresses.  
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/ChineseAddress_OCR/raw/master/demo/result2.png" width="700" ></div>   
 
 If you want to know more details, please read 'ChineseAddress_OCR_Report.pdf'(Chinese). If you want to read details in English, please contact me.
