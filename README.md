@@ -7,7 +7,7 @@ This is a project of the 2018 Deecamp 25th group (DRPRG). Thanks to my team memb
   
 Our Demo: https://www.bilibili.com/video/av30081208  
 Our Wechat Program (微信小程序)： OCRdeecamp  
-  
+<img src="https://github.com/Walleclipse/ChineseAddress_OCR/raw/master/demo/demo.png" width="600" >  
 Reference Paper: Detecting Text in Natural Image with Connectionist Text Proposal Network https://arxiv.org/pdf/1609.03605.pdf  
 Reference Code: https://github.com/YCG09/chinese_ocr (Thanks Yang Chenguang)  
 
