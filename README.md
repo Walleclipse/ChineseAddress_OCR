@@ -40,4 +40,4 @@ Our program has high accuracy at identifying very fuzzy multi-line addresses.
 
 <div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/ChineseAddress_OCR/raw/master/demo/result2.png" width="750" ></div>   
 
-If you want to know more details, please read ['ChineseAddress_OCR_Report.pdf'(中文)](ChineseAddress_OCR_Report.pdf).
+If you want to know more details, please read [ChineseAddress_OCR_Report.pdf](ChineseAddress_OCR_Report.pdf)(中文).
