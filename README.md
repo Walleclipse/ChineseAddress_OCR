@@ -21,17 +21,17 @@ Address Correction: Fuzzy matching based on address library
 <div style="float:center;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/ChineseAddress_OCR/raw/master/demo/method.png"  width="700" ></div>  
   
 ## About Code
-demo_final.py  
+`demo_final.py`  
 You can simply run demo_final.py for inference. Input a picture and output the Chinese address string.   
-run_flask.py  
+`run_flask.py`
 Communication between server and Wechat program with flask  
-ocr_whole.py  
+`ocr_whole.py`  
 Text detection with CTPN, and text recognition with Densenet  
-stupid_addrs_rev.py  
+`stupid_addrs_rev.py`  
 Address correction using fuzzy-matching based on address library  
-CTPN  
+`ctpn`  
 If you want to know more details about CTPN codes, please check https://github.com/eragonruan/text-detection-ctpn  
-wechat_program  
+`wechat_program`  
 Some files of Wechat program (微信小程序的一些文件)
 
 ## Results
