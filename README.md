@@ -41,3 +41,14 @@ Our program has high accuracy at identifying very fuzzy multi-line addresses.
 <div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/ChineseAddress_OCR/raw/master/demo/result2.png" width="750" ></div>   
 
 If you want to know more details, please read [ChineseAddress_OCR_Report.pdf](ChineseAddress_OCR_Report.pdf)(中文).
+
+## Simple Use
+You need to create a new py file and call the `def demo_flask` from `demo_final.py` to run the project.
+```
+from demo_final import demo_flask
+image_file="./demo.png" # image path
+output_file,ret_total = demo_flask(image_file)
+print('Recongition Result:')
+print(ret_total)
+```
+If you encounter the error related to "converter", you need to rewrite some code lines to Python 3 grammar. 
